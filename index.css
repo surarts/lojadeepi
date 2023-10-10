@@ -1,0 +1,165 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #106f36;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color:white;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+div#logo img {
+    max-width: 300px;
+}
+
+section.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section.item-promocao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {   
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.article {
+    width: 271px;
+    height: 368px; 
+    border: 1px solid #ccc; 
+    overflow: hidden; 
+}
+
+.item-promocao {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ProductBox_listPrice__yKIXE.ProductBox_listPrice__yKIXE {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-right: 8px;
+    font-weight: 400;
+    color: #333;
+}
+
+.ProductBox_listPrice__yKIXE+span {
+    color:#d71920
+}
+
+.ProductBox_flagDiscount__8Mynr {
+    position: absolute;
+    top: 32px;
+    left: 8px;
+    z-index: 200;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .4px;
+}
+
+.item-promocao img {
+    max-width: 100%;
+}
+
+.item-promocao h2 {
+    font-size: 1.2em;
+}
+
+.preco-promocao {
+    font-weight: bold;
+    color: #fcfcfb; /* Texto vermelho para indicar promoção de preço */
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.preco {
+    font-weight: bold;
+    color: #333;
+}
+
+.adicionar-ao-carrinho {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.adicionar-ao-carrinho:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
